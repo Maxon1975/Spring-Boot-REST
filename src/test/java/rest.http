@@ -1,0 +1,24 @@
+GET http://localhost:8080/authorize?user=admin&password=0000
+Accept: application/json
+
+###
+
+GET http://localhost:8080/authorize?user=director&password=1000
+Accept: application/json
+
+###
+
+GET http://localhost:8080/authorize?user=manager&password=0010
+Accept: application/json
+
+###
+
+GET http://localhost:8080/authorize?user=&password=0000
+Accept: application/json
+
+###
+
+GET http://localhost:8080/authorize?user=maxon&password=0000
+Accept: application/json
+
+###
